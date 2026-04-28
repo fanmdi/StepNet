@@ -78,9 +78,11 @@ torch-geometric
 contextily
 folium
 plotly
-
+```
 ---
-## Input Data Requirements
+
+## Repository Description
+
 
 1. Spatial Aggregation Zones
 2. Socio-Demographic Data in each zone
