@@ -79,8 +79,9 @@ contextily
 folium
 plotly
 
+---
+## Input Data Requirements
 
-** Input Data Requirements
 1. Spatial Aggregation Zones
 2. Socio-Demographic Data in each zone
 population
