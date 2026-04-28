@@ -84,49 +84,46 @@ plotly
 ## Repository Description
 
 
-1. Spatial Aggregation Zones
-2. Socio-Demographic Data in each zone
-population
-household_income
-vehicle_ownership
-median_age
-3. Land-Use Data in each zone
-commercial_landuse
-residential_landuse
-education_landuse
-hospital_landuse
-industrial_landuse
-parkland_landuse
-transport_landuse
-4. Network Connectivity Data
-intersection_count
-number_of_nodes
-edge_density
-links_nodes_ratio
-street_node_average
-5. Public Transport Accessibility
-6. Pedestrian Network
-edge_id
-from_node
-to_node
-geometry
-length
-slope
-gradient
-number_of_turns
-number_of_crossings
-green_view_index
-poi_count
+1. **Spatial Aggregation Zones**
+2. **Socio-Demographic Data in each zone**
+- population
+- household_income
+- vehicle_ownership
+- median_age
+3. **Land-Use Data in each zone**
+- commercial_landuse
+- residential_landuse
+- education_landuse
+- hospital_landuse
+- industrial_landuse
+- parkland_landuse
+- transport_landuse
+4. **Network Connectivity Data**
+- intersection_count
+- number_of_nodes
+- edge_density
+-links_nodes_ratio
+- street_node_average
+5. **Public Transport Accessibility**
+6. **Pedestrian Network**
+
+- length
+- slope
+- gradient
+- number_of_turns
+- number_of_crossings
+- green_view_index
+- poi_count
 
 
 In the paper, STePNet is applied to:
 
-Sydney, Australia
-New York City, USA
+- Sydney, Australia
+- New York City, USA
 
 Transferable demand models are trained in:
 
-Brisbane, Australia
-Seattle, USA
+- Brisbane, Australia
+- Seattle, USA
 
 The framework shows that transferred pedestrian demand models can estimate network-level pedestrian flows after calibration, even when detailed local demand data are unavailable.
